@@ -1,0 +1,3 @@
+Model,Features,AUC_ROC,Notes
+With Recency,"recency, frequency, monetary",0.9999981017758954,"High performance, but contains leakage because churn was defined using recency"
+Without Recency,"frequency, monetary",0.5101589460817221,"Leakage-free model, but weak performance because frequency and monetary are not strong predictors"
